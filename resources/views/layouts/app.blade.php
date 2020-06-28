@@ -39,7 +39,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item px-2">
-                                <a class="btn btn-outline-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="btn btn-outline-primary" href="/">Home</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
