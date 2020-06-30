@@ -14,10 +14,15 @@
                         <input type="submit" value="Save" class="btn btn-primary btn-block">
                     </div>
                 </form>
+                <div id="viewImage">
+
+                </div>
             </div>
             <div class="col-sm">
 
             </div>
         </div>
 </div>
+<script src="{{asset('js/jquery-3.5.1.js')}}"></script>
+<script src="{{asset('js/addTrainer.js')}}"></script>
 @endsection
