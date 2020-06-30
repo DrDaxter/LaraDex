@@ -11,18 +11,14 @@
                 <form action="/trainer" method="POST" class="form-group" enctype="multipart/form-data">
                     @include('layouts.inputs')
                     <div class="form-group">
-                        <input type="submit" value="Save" class="btn btn-primary btn-block">
+                        <input type="submit" value="Save" class="btn btn-primary btn-block mt-2">
                     </div>
                 </form>
-                <div id="viewImage">
-
-                </div>
             </div>
             <div class="col-sm">
 
             </div>
         </div>
 </div>
-<script src="{{asset('js/jquery-3.5.1.js')}}"></script>
-<script src="{{asset('js/addTrainer.js')}}"></script>
+
 @endsection

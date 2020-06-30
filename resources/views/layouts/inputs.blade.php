@@ -10,5 +10,14 @@
 </div>
 <div class="form-group">
     <label for="">Upload avatar</label>
-    <input type="file" name="avatar">
+    <input type="file" name="avatar" id="avatar" onchange="ImageView();">
 </div>
+<div class="ml-5">
+    <div class="card text-center" style="width: 18rem;">
+        <img class="card-img-top" src="{{asset('images/addPhoto.png')}}" alt="Card image cap" id="card">
+        <div class="card-body">
+          <h5 class="card-title">Photo</h5>
+        </div>
+    </div>
+</div>
+<script src="{{asset('js/addTrainer.js')}}"></script>
